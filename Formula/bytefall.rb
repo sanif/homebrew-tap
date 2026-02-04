@@ -5,12 +5,12 @@
 class Bytefall < Formula
   desc "Real-time network traffic visualization with Matrix-style aesthetics"
   homepage "https://github.com/sanif/bytefall"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
   depends_on :macos
 
-  url "https://github.com/sanif/bytefall/releases/download/v0.3.0/bytefall_0.3.0_darwin_all.tar.gz"
-  sha256 "b31ec600b5adc9078146e7710a0cc6a2c5d0a6068238674ad270cb1778947e2d"
+  url "https://github.com/sanif/bytefall/releases/download/v0.3.1/bytefall_0.3.1_darwin_all.tar.gz"
+  sha256 "453150c5eab97c08bfd1375ce306933260c1e6973cbb371335dede8c5adcc031"
 
   def install
     bin.install "bytefall"

@@ -1,25 +1,25 @@
 class SafesshCli < Formula
   desc "Safe SSH executor with policy-driven approvals and audit logging"
   homepage "https://github.com/sanif/safessh"
-  version "0.5.0"
+  version "0.6.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/sanif/safessh/releases/download/v0.5.0/safessh-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "44cfd72fc7096acd9dbecb35751a55ae5280246145cf295f302595d06a928dd1"
+      url "https://github.com/sanif/safessh/releases/download/v0.6.0/safessh-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "dfa01601ea3a86c770ad305190b448d0eb24feb25935639e2b6df4c7e416e06b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/sanif/safessh/releases/download/v0.5.0/safessh-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "495c0ee81c36b8b261b5b0ad5e8125e586171877b793f5fb2ed2bfdd47bff439"
+      url "https://github.com/sanif/safessh/releases/download/v0.6.0/safessh-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "922f2f5751089f379201458fb5cfa414adc603805d7396853a26bd1875affbc8"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/sanif/safessh/releases/download/v0.5.0/safessh-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "d9d1177278aa74e21d4a2dbd64583975131b8eb1c5196adbae2280b09f2ae4e6"
+      url "https://github.com/sanif/safessh/releases/download/v0.6.0/safessh-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "970caf3ad3125520822ad9631969c2ca28c4065df76699f6194dba8c1c41a9d7"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/sanif/safessh/releases/download/v0.5.0/safessh-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "fc74792540c1de228c8efbfb2d0431618099dcef37d77d619a54f60aa50fd9ad"
+      url "https://github.com/sanif/safessh/releases/download/v0.6.0/safessh-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "fec8270cc1badf222731cba30a1b57388de261e236c69210ece1903c0024835d"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
